@@ -1,0 +1,16 @@
+services:
+  # ENSURE THE SERVICE NAME IS UNIQUE TO AVOID CONFLICTS
+  Malware-ForenHard:
+    build: .
+    # ENSURE THE IMAGE NAME IS THE SAME AS THE SERVICE NAME
+    # (docker requires repository names to be lowercase, so the tag is lowercased)
+    image: malware-forenhard
+    container_name: Malware-ForenHard
+    restart: unless-stopped
+    environment:
+      - TERM=xterm
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "13337:13337"

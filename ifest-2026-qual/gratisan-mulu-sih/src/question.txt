@@ -1,0 +1,51 @@
+1.  Which messaging platform did the victim use that delivered the initial malware? (Format: Google)
+    -> Signal
+
+2.  What secret word did the threat actor send to the victim? (Format: SecretWord)
+    -> BambausticHebat
+
+3.  What is the first malicious file SHA256 hash? (Format: sha256 hash)
+    -> d8a9db6fc10aac0aad910b5ea89ff1e85f662662e0d0107582d38f7354ed4b85
+
+4.  When was the initial malicious file executed? (Format: UTC, hh:mm:ss)
+    -> 12:43:21
+
+5.  What is the full path of the registry key the malware created to achieve persistence? (Format: HKCU\Microsoft\Hai|Wavess)
+    -> HKEY_CURRENT_USER\Software\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell\open\command\
+
+6.  What file did the initial malware drop onto the system? (Format: filename.ext)
+    -> sptfy_update.exe
+
+7.  What is the full file path of the second payload? (Format: C:\Users\Paimian\Downloads\...)
+    -> C:\Users\Paimian\AppData\Local\Temp\sptfy_update.exe
+
+8.  What is the IP address of the Command and Control (C2) server? (Format: IP)
+    -> 192.168.56.1
+    [unlocks] https://binusianorg-my.sharepoint.com/personal/owen_bong_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQArO5Fq6AgYTZhfzjpGodH4Ad6GPMQvSBn1ePSvDre8YYE&e=tTRiCg
+
+9.  What keyword triggers the malware to execute data exfiltration? (Format: SecretWord)
+    -> SPX-EXEC
+
+10. What is the full command sent by the malware to discover files? (Format: command)
+    -> Get-ChildItem $env:USERPROFILE\Documents -Recurse | Select-Object FullName, Length
+
+11. The malware splits its encryption key material into several fragments in memory. How many fragments are there? (Format: number)
+    -> 8
+
+12. Each fragment holds some real key material followed by random padding. How many bytes of real key material does each fragment hold? (Format: number)
+    -> 34
+
+13. Each fragment's allocation is larger than the previous one by a fixed amount. What is that amount, in bytes? (Format: number)
+    -> 256
+
+14. What is the full virtual address at which the third fragment's key material begins? (Format: hex, e.g. 0x00024373...)
+    -> 0x0000019e0ccd1020
+
+15. What is the final 16-byte key used to decrypt the exfiltrated data? (Format: lowercase hex, no 0x, no separators)
+    -> d9d7e8eba15a13fc8a2aa5993adda431
+
+16. List the names of all files that were exfiltrated, in the order they appear in the exfil container. (Format: filename1_filename2_filename3)
+    -> Final Revision.pdf_SLIDE 1 11 (1).png_Untitled2.cpp
+
+17. What was the content of the exfiltrated PDF file? (Format: word)
+    -> you_solved_the_challenge_so_go_on_submit_this
