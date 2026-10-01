@@ -1,11 +1,11 @@
 # gratisan mulu sih
 
-**Event:** IFEST CTF 2026 — Qualification  
+**Event:** IFEST CTF 2026 - Qualification  
 **Category:** Forensic  
 **Difficulty:** Hard  
 **Author:** wavess
 
-**Ran at:** `nc 103.152.242.64 13337` — the event server, long since taken down.
+**Ran at:** `nc 103.152.242.64 13337` - the event server, long since taken down.
 
 ## Description
 

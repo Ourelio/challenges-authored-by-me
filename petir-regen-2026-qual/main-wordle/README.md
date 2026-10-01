@@ -1,6 +1,6 @@
 # main wordle
 
-**Event:** PETIR Regen 2026 — Qualification  
+**Event:** PETIR Regen 2026 - Qualification  
 **Category:** Reverse Engineering  
 **Difficulty:** medium  
 **Author:** wavess

@@ -1,6 +1,6 @@
 # lagi dengerin lagu apa mas?
 
-**Event:** PETIR Regen 2026 — Qualification  
+**Event:** PETIR Regen 2026 - Qualification  
 **Category:** Forensic  
 **Difficulty:** medium  
 **Author:** wavess

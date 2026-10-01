@@ -1,6 +1,6 @@
 # sudah lama
 
-**Event:** BeeFest 2026 — Qualification  
+**Event:** BeeFest 2026 - Qualification  
 **Category:** Digital Forensic  
 **Difficulty:** Medium  
 **Author:** wavess

@@ -1,6 +1,6 @@
 # brian lagi
 
-**Event:** National Cyber Week 2025 — Final  
+**Event:** National Cyber Week 2025 - Final  
 **Category:** Forensic  
 **Difficulty:** medium  
 **Author:** wavess

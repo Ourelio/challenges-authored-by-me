@@ -1,6 +1,6 @@
 # kena sudah wakoor rnd kita
 
-**Event:** PETIR Regen 2026 — Qualification  
+**Event:** PETIR Regen 2026 - Qualification  
 **Category:** Forensic  
 **Difficulty:** hard  
 **Author:** wavess
